@@ -22,7 +22,7 @@ if(NOT CMAKE_DEBUG_POSTFIX)
   set(CMAKE_DEBUG_POSTFIX "_d")
 endif()
 
-find_package(EnTT REQUIRED)
+# find_package(EnTT REQUIRED)
 
 configure_file(cmake/in/build_settings.h.in include/edyn/build_settings.h @ONLY)
 
